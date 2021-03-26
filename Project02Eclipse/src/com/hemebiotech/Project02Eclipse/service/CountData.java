@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-
 public class CountData {
 
     public Map<String, Integer> count(List<String> symptomsList) {
