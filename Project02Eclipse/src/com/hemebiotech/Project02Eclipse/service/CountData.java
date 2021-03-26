@@ -5,11 +5,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * this method counts and regroups the data in the same file trough the TreeMap (k-v)
+ */
 public class CountData {
 
     public Map<String, Integer> count(List<String> symptomsList) {
 
-        Map<String, Integer> symptomsMap; //k-v
+        Map<String, Integer> symptomsMap;
         symptomsMap = new TreeMap<String, Integer>();
 
         for (String s : symptomsList) {
