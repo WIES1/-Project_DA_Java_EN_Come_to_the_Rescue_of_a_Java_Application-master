@@ -41,13 +41,10 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
         return result;
     }
 
-    @Override
-    public List<String> GetSymptoms() {
-        // TODO Auto-generated method stub
-        return null;
+
     }
 
-}
+
 
 
 
